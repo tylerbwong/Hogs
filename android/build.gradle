@@ -20,6 +20,9 @@ android {
 
         instrumentTest.setRoot('tests')
     }
+    lintOptions {
+        abortOnError false
+    }
     dexOptions {
         javaMaxHeapSize "4g"
     }
